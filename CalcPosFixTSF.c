@@ -1,6 +1,6 @@
 /******************************************************
 
-Autor: Thiago Straiotto Fabri
+Autor: firulion
 
 ******************************************************/
 
@@ -10,9 +10,9 @@ Autor: Thiago Straiotto Fabri
 #include "CalcPosFix.h"
 
 /**
- * Verifica se a pilha está vazia
+ * Verifica se a pilha estÃ¡ vazia
  * @param pilha Pilha
- * @return 1 se a pilha está vazia, 0 se contém elementos
+ * @return 1 se a pilha estÃ¡ vazia, 0 se contÃ©m elementos
  */
 int estaVazia(PilhaDouble *pilha)
 {
@@ -83,7 +83,7 @@ double pop(PilhaDouble **pilha)
 /**
  * Retira dois valores do topo da pilha, soma e coloca o resultado na pilha
  * @param pilha Pilha
- * @return Sucesso da operação
+ * @return Sucesso da operaÃ§Ã£o
  */
 int soma(PilhaDouble **pilha)
 {
@@ -101,7 +101,7 @@ int soma(PilhaDouble **pilha)
 /**
  * Retira dois valores do topo da pilha, subtrai e coloca o resultado na pilha
  * @param pilha Pilha
- * @return Sucesso da operação
+ * @return Sucesso da operaÃ§Ã£o
  */
 int subtrai(PilhaDouble **pilha)
 {
@@ -120,7 +120,7 @@ int subtrai(PilhaDouble **pilha)
 /**
  * Retira dois valores do topo da pilha, multiplica e coloca o resultado na pilha
  * @param pilha Pilha
- * @return Sucesso da operação
+ * @return Sucesso da operaÃ§Ã£o
  */
 int multiplica(PilhaDouble **pilha)
 {
@@ -139,7 +139,7 @@ int multiplica(PilhaDouble **pilha)
 /**
  * Retira dois valores do topo da pilha, divide e coloca o resultado na pilha
  * @param pilha Pilha
- * @return Sucesso da operação
+ * @return Sucesso da operaÃ§Ã£o
  */
 int divide(PilhaDouble **pilha)
 {
@@ -162,9 +162,9 @@ int divide(PilhaDouble **pilha)
 }
 
 /**
- * Retorna o número de elementos que a pilha contém
+ * Retorna o nÃºmero de elementos que a pilha contÃ©m
  * @param pilha Pilha
- * @return Número de elementos
+ * @return NÃºmero de elementos
  */
 int altura(PilhaDouble *pilha)
 {
@@ -180,10 +180,10 @@ int altura(PilhaDouble *pilha)
 
 /**
 * Retorna o nome do autor da classe
-* @param Variavel que receberá o nome
+* @param Variavel que receberÃ¡ o nome
 * @return
 */
 void autor(char nome[])
 {
-    sprintf(nome, "Thiago Straiotto Fabri");
+    sprintf(nome, "Thiago");
 }
