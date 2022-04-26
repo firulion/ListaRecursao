@@ -1,18 +1,17 @@
 /******************************************************
 
-Lista de FunÁıes recursivas
+Lista de Fun√ß√µes recursivas
 Autor: Thiago Straiotto Fabri
 
 ******************************************************/
 
 #include <stdio.h>
 #include <string.h>
-#include "CalcPosFix.h" /// recursao.h
 
 /**
- * Calcula a soma dos inteiros de 1 atÈ N
+ * Calcula a soma dos inteiros de 1 at√© N
  * @param n N
- * @return -1 se N for menor que 1, a soma caso contr·rio
+ * @return -1 se N for menor que 1, a soma caso contr√°rio
  */
 int soma(int n)
 {
@@ -25,7 +24,7 @@ int soma(int n)
 /**
  * Calcula o fatorial de N
  * @param n N
- * @return -1 se N for menor que 0, o fatorial caso contr·rio
+ * @return -1 se N for menor que 0, o fatorial caso contr√°rio
  */
 int fatorial(int n)
 {
@@ -36,9 +35,9 @@ int fatorial(int n)
 }
 
 /**
- * Calcula o N-Èsimo elemento da sÈrie de Fibonacci
+ * Calcula o N-√©simo elemento da s√©rie de Fibonacci
  * @param n N
- * @return -1 se for menor que 0, o elemento caso contr·rio
+ * @return -1 se for menor que 0, o elemento caso contr√°rio
  */
 int fibonacci(int n)
 {
@@ -81,12 +80,12 @@ int somavetor(int vetor[], int tamanho)
 
 
 /**
- * Encontra um valor em um vetor atravÈs da busca bin·ria
+ * Encontra um valor em um vetor atrav√©s da busca bin√°ria
  * @param vetor Vetor
  * @param alvo Valor a ser encontrado
- * @param primeiro Primeira posiÁ„o do vetor
- * @param ultimo ⁄ltima posiÁ„o do vetor
- * @return PosiÁ„o do elemento no vetor, ou -1 caso n„o encontre o elemento
+ * @param primeiro Primeira posi√ß√£o do vetor
+ * @param ultimo √öltima posi√ß√£o do vetor
+ * @return Posi√ß√£o do elemento no vetor, ou -1 caso n√£o encontre o elemento
  */
 int buscaBinaria(int vetor[], int alvo, int primeiro, int ultimo)
 {
@@ -133,9 +132,9 @@ int findmin(int vetor[], int tamanho)
 }
 
 /**
- * Verifica se uma string È um palÌndromo (pode destruir a string no processo)
+ * Verifica se uma string √© um pal√≠ndromo (pode destruir a string no processo)
  * @param string String a ser avaliada
- * @return 1 se for um palÌndromo, 0 se n„o for
+ * @return 1 se for um pal√≠ndromo, 0 se n√£o for
  */
 int palindromo(char *string)
 {
@@ -152,7 +151,7 @@ int palindromo(char *string)
 
 /**
 * Retorna o nome do autor da classe
-* @param Variavel que receber· o nome
+* @param Variavel que receber√° o nome
 * @return
 */
 void autor(char nome[])
