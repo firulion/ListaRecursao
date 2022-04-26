@@ -1,7 +1,7 @@
 /******************************************************
 
 Lista de Funções recursivas
-Autor: Thiago Straiotto Fabri
+Autor: firulion
 
 ******************************************************/
 
@@ -156,7 +156,7 @@ int palindromo(char *string)
 */
 void autor(char nome[])
 {
-    sprintf(nome, "Thiago Straiotto Fabri");
+    sprintf(nome, "Thiago");
 }
 
 int main(){
